@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BigKeeperOrderModule_Example' do
+  pod 'BigKeeperOrderModule', :path => '../'
+
+  target 'BigKeeperOrderModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

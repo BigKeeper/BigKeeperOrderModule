@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4295E318E70CDF3E5252EEDCC08E932D /* BigKeeperOrderModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96008F046D29D4940B9857DC74F44AB3 /* BigKeeperOrderModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		721802609F01A2AECEF3A66488A588B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		827D352849FE29AFFC47985E077A0B35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A3366025CAABCB80E4CBADAC18EDF648 /* Pods-BigKeeperOrderModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79FC1E7F12A76EDF64CB1C6EB96FFA02 /* Pods-BigKeeperOrderModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B21F3318E99EA94D263ABEB56D283445 /* Pods-BigKeeperOrderModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B32E333760728EF5E8AC580F8DB70C51 /* Pods-BigKeeperOrderModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA78D2BEF48CC8B806253757D7202CAC /* Pods-BigKeeperOrderModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5D110E9F9A0A8112EA9FC81A3CC79A /* Pods-BigKeeperOrderModule_Tests-dummy.m */; };
+		D99AFDE518A0E1E45BD5FC7069C4EF19 /* Pods-BigKeeperOrderModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CA0611ACA7EC3CDB40425FB37A13BA /* Pods-BigKeeperOrderModule_Example-dummy.m */; };
+		DAA11FCE84937591C061CD04D7C055E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DB7189318B58E4DB196DD3D488D6E1C5 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D11F792AD3156C3F0A719C2F2F4723 /* ReplaceMe.m */; };
+		E721EFCCD52EC181B2CD8EB5FDBF5F22 /* BigKeeperOrderModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86511F4BCFC6DD6FC07AB04737B34A76 /* BigKeeperOrderModule-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EE6EB1FC07F73A1BDDEEC6C7DE8ECB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3290E0467CF3D872552B08C6E86B994F;
+			remoteInfo = BigKeeperOrderModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		047351C2CFB265D128CB62A662C1DDAE /* Pods-BigKeeperOrderModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BigKeeperOrderModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0A438C4C77C3D2C1D162EF01BA228C77 /* BigKeeperOrderModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BigKeeperOrderModule.modulemap; sourceTree = "<group>"; };
+		1028518739FA522B93BB28355ECEE3E1 /* Pods-BigKeeperOrderModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BigKeeperOrderModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1334A25DCFB3B91938C78D67D8CDE07C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		347C0387A9B35BE05EA7ACA7F78DD507 /* Pods-BigKeeperOrderModule_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BigKeeperOrderModule_Example-resources.sh"; sourceTree = "<group>"; };
+		4612A0EBD98D2EC8E287046D17455C13 /* Pods-BigKeeperOrderModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BigKeeperOrderModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		47602B8F1C78411240C7EB764D48695B /* Pods-BigKeeperOrderModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BigKeeperOrderModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		48BB29E3586096AE71915C0A9BF5F1A1 /* Pods_BigKeeperOrderModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BigKeeperOrderModule_Tests.framework; path = "Pods-BigKeeperOrderModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53DC50C767085D81277FDE320EA685A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D8F98B2E5EC4F57654FA8A24C402E0C /* BigKeeperOrderModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BigKeeperOrderModule-prefix.pch"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75AC8C2EBD3D2899244A4132389E7863 /* Pods-BigKeeperOrderModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BigKeeperOrderModule_Tests.modulemap"; sourceTree = "<group>"; };
+		79FC1E7F12A76EDF64CB1C6EB96FFA02 /* Pods-BigKeeperOrderModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BigKeeperOrderModule_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7FE94573D4B2C89E89DCB749E40BFFE5 /* Pods-BigKeeperOrderModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BigKeeperOrderModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		85D5EFCA0724EF5CE9CF7967044406C1 /* Pods-BigKeeperOrderModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BigKeeperOrderModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		86511F4BCFC6DD6FC07AB04737B34A76 /* BigKeeperOrderModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BigKeeperOrderModule-dummy.m"; sourceTree = "<group>"; };
+		87D11F792AD3156C3F0A719C2F2F4723 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		8D5D914B09B32457CECBD17C80321E22 /* BigKeeperOrderModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BigKeeperOrderModule.framework; path = BigKeeperOrderModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D89D667120004028C3D79CAC7C1AC51 /* Pods-BigKeeperOrderModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BigKeeperOrderModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96008F046D29D4940B9857DC74F44AB3 /* BigKeeperOrderModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BigKeeperOrderModule-umbrella.h"; sourceTree = "<group>"; };
+		A1F377B45081ED45B12D78933D3AD30F /* Pods-BigKeeperOrderModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BigKeeperOrderModule_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A88D7EA4C76D5354497C6B103EC940F3 /* Pods-BigKeeperOrderModule_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BigKeeperOrderModule_Tests-resources.sh"; sourceTree = "<group>"; };
+		B32E333760728EF5E8AC580F8DB70C51 /* Pods-BigKeeperOrderModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BigKeeperOrderModule_Example-umbrella.h"; sourceTree = "<group>"; };
+		C8AE8D5344C91F31A35E3DE8E7E826E4 /* Pods-BigKeeperOrderModule_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BigKeeperOrderModule_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CF5D110E9F9A0A8112EA9FC81A3CC79A /* Pods-BigKeeperOrderModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BigKeeperOrderModule_Tests-dummy.m"; sourceTree = "<group>"; };
+		E0A1D45DBC656B3A4B1AA6282004D88D /* BigKeeperOrderModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BigKeeperOrderModule.xcconfig; sourceTree = "<group>"; };
+		EA5CF93E9757E3BBC2434D87787365A7 /* Pods-BigKeeperOrderModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BigKeeperOrderModule_Example.modulemap"; sourceTree = "<group>"; };
+		F2CA0611ACA7EC3CDB40425FB37A13BA /* Pods-BigKeeperOrderModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BigKeeperOrderModule_Example-dummy.m"; sourceTree = "<group>"; };
+		F501FF6C6B41032179266E60998FC942 /* Pods-BigKeeperOrderModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BigKeeperOrderModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FD4FA0C3D85431D8265AFD16BC93346D /* Pods_BigKeeperOrderModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BigKeeperOrderModule_Example.framework; path = "Pods-BigKeeperOrderModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF498FBDEDA97B8E28B970FCE81B78F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		212C2C0F0E01BA49770188915013F8F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA11FCE84937591C061CD04D7C055E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0A78D47A294EFF768F4183D91F2222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827D352849FE29AFFC47985E077A0B35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8384D59C0B60C895D3B04BE12E7D6EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				721802609F01A2AECEF3A66488A588B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27C4372CDDC28735D650114BF6FF0595 /* BigKeeperOrderModule */ = {
+			isa = PBXGroup;
+			children = (
+				BE6FDA2AF837AE790972F031E7944C47 /* Classes */,
+			);
+			name = BigKeeperOrderModule;
+			path = BigKeeperOrderModule;
+			sourceTree = "<group>";
+		};
+		27E7AAF8C205FF0CAE3960B229038156 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64B56DB401A124D091ED2496ABC4B1D2 /* Pods-BigKeeperOrderModule_Example */,
+				FA2F0D2D471E1FC58DBEF5B54DD760B0 /* Pods-BigKeeperOrderModule_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		64B56DB401A124D091ED2496ABC4B1D2 /* Pods-BigKeeperOrderModule_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1334A25DCFB3B91938C78D67D8CDE07C /* Info.plist */,
+				EA5CF93E9757E3BBC2434D87787365A7 /* Pods-BigKeeperOrderModule_Example.modulemap */,
+				047351C2CFB265D128CB62A662C1DDAE /* Pods-BigKeeperOrderModule_Example-acknowledgements.markdown */,
+				1028518739FA522B93BB28355ECEE3E1 /* Pods-BigKeeperOrderModule_Example-acknowledgements.plist */,
+				F2CA0611ACA7EC3CDB40425FB37A13BA /* Pods-BigKeeperOrderModule_Example-dummy.m */,
+				A1F377B45081ED45B12D78933D3AD30F /* Pods-BigKeeperOrderModule_Example-frameworks.sh */,
+				347C0387A9B35BE05EA7ACA7F78DD507 /* Pods-BigKeeperOrderModule_Example-resources.sh */,
+				B32E333760728EF5E8AC580F8DB70C51 /* Pods-BigKeeperOrderModule_Example-umbrella.h */,
+				7FE94573D4B2C89E89DCB749E40BFFE5 /* Pods-BigKeeperOrderModule_Example.debug.xcconfig */,
+				85D5EFCA0724EF5CE9CF7967044406C1 /* Pods-BigKeeperOrderModule_Example.release.xcconfig */,
+			);
+			name = "Pods-BigKeeperOrderModule_Example";
+			path = "Target Support Files/Pods-BigKeeperOrderModule_Example";
+			sourceTree = "<group>";
+		};
+		70A1E67B247C9AD83E31DCB56930FECC /* BigKeeperOrderModule */ = {
+			isa = PBXGroup;
+			children = (
+				27C4372CDDC28735D650114BF6FF0595 /* BigKeeperOrderModule */,
+				B5A52A7E84BA81061D9AA1E28050F0C7 /* Support Files */,
+			);
+			name = BigKeeperOrderModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		78EBDEBC7F22942919037ABBE87B5DB2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70A1E67B247C9AD83E31DCB56930FECC /* BigKeeperOrderModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				78EBDEBC7F22942919037ABBE87B5DB2 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FC71733CE9B925BD4DACA02447809DB1 /* Products */,
+				27E7AAF8C205FF0CAE3960B229038156 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B5A52A7E84BA81061D9AA1E28050F0C7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A438C4C77C3D2C1D162EF01BA228C77 /* BigKeeperOrderModule.modulemap */,
+				E0A1D45DBC656B3A4B1AA6282004D88D /* BigKeeperOrderModule.xcconfig */,
+				86511F4BCFC6DD6FC07AB04737B34A76 /* BigKeeperOrderModule-dummy.m */,
+				5D8F98B2E5EC4F57654FA8A24C402E0C /* BigKeeperOrderModule-prefix.pch */,
+				96008F046D29D4940B9857DC74F44AB3 /* BigKeeperOrderModule-umbrella.h */,
+				FDF498FBDEDA97B8E28B970FCE81B78F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BigKeeperOrderModule";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE6FDA2AF837AE790972F031E7944C47 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				87D11F792AD3156C3F0A719C2F2F4723 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FA2F0D2D471E1FC58DBEF5B54DD760B0 /* Pods-BigKeeperOrderModule_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				53DC50C767085D81277FDE320EA685A0 /* Info.plist */,
+				75AC8C2EBD3D2899244A4132389E7863 /* Pods-BigKeeperOrderModule_Tests.modulemap */,
+				F501FF6C6B41032179266E60998FC942 /* Pods-BigKeeperOrderModule_Tests-acknowledgements.markdown */,
+				4612A0EBD98D2EC8E287046D17455C13 /* Pods-BigKeeperOrderModule_Tests-acknowledgements.plist */,
+				CF5D110E9F9A0A8112EA9FC81A3CC79A /* Pods-BigKeeperOrderModule_Tests-dummy.m */,
+				C8AE8D5344C91F31A35E3DE8E7E826E4 /* Pods-BigKeeperOrderModule_Tests-frameworks.sh */,
+				A88D7EA4C76D5354497C6B103EC940F3 /* Pods-BigKeeperOrderModule_Tests-resources.sh */,
+				79FC1E7F12A76EDF64CB1C6EB96FFA02 /* Pods-BigKeeperOrderModule_Tests-umbrella.h */,
+				47602B8F1C78411240C7EB764D48695B /* Pods-BigKeeperOrderModule_Tests.debug.xcconfig */,
+				8D89D667120004028C3D79CAC7C1AC51 /* Pods-BigKeeperOrderModule_Tests.release.xcconfig */,
+			);
+			name = "Pods-BigKeeperOrderModule_Tests";
+			path = "Target Support Files/Pods-BigKeeperOrderModule_Tests";
+			sourceTree = "<group>";
+		};
+		FC71733CE9B925BD4DACA02447809DB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5D914B09B32457CECBD17C80321E22 /* BigKeeperOrderModule.framework */,
+				FD4FA0C3D85431D8265AFD16BC93346D /* Pods_BigKeeperOrderModule_Example.framework */,
+				48BB29E3586096AE71915C0A9BF5F1A1 /* Pods_BigKeeperOrderModule_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		21EA4135B636B4A6A635CF8CC348C448 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4295E318E70CDF3E5252EEDCC08E932D /* BigKeeperOrderModule-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E8FDB0DE2A2BFF16FC991A499CC73E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3366025CAABCB80E4CBADAC18EDF648 /* Pods-BigKeeperOrderModule_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE117DA46EA23F4B0BFA73BA5A219E9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B21F3318E99EA94D263ABEB56D283445 /* Pods-BigKeeperOrderModule_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3290E0467CF3D872552B08C6E86B994F /* BigKeeperOrderModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFF6CC956813A42A5D0A896441CFA66F /* Build configuration list for PBXNativeTarget "BigKeeperOrderModule" */;
+			buildPhases = (
+				CBCCAEEC92C95DB949A76EC6A48268FA /* Sources */,
+				212C2C0F0E01BA49770188915013F8F7 /* Frameworks */,
+				21EA4135B636B4A6A635CF8CC348C448 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BigKeeperOrderModule;
+			productName = BigKeeperOrderModule;
+			productReference = 8D5D914B09B32457CECBD17C80321E22 /* BigKeeperOrderModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3F4638E0854A5E05F7697A0CB489B102 /* Pods-BigKeeperOrderModule_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D707964D9AA3D3F09DE925AEA92FD11 /* Build configuration list for PBXNativeTarget "Pods-BigKeeperOrderModule_Tests" */;
+			buildPhases = (
+				655DE97A6810942D5BB609D7D1D62D26 /* Sources */,
+				9F0A78D47A294EFF768F4183D91F2222 /* Frameworks */,
+				E6E8FDB0DE2A2BFF16FC991A499CC73E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BigKeeperOrderModule_Tests";
+			productName = "Pods-BigKeeperOrderModule_Tests";
+			productReference = 48BB29E3586096AE71915C0A9BF5F1A1 /* Pods_BigKeeperOrderModule_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5A3B5164CB4AB4D0B822621404667262 /* Pods-BigKeeperOrderModule_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DB85F76336EE226FB2DDC031DC65DE8 /* Build configuration list for PBXNativeTarget "Pods-BigKeeperOrderModule_Example" */;
+			buildPhases = (
+				CC2CCA3B95694E33299C382A7A7C3965 /* Sources */,
+				F8384D59C0B60C895D3B04BE12E7D6EE /* Frameworks */,
+				FE117DA46EA23F4B0BFA73BA5A219E9B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B54A8D1A718768CC16262ADB3D3B684 /* PBXTargetDependency */,
+			);
+			name = "Pods-BigKeeperOrderModule_Example";
+			productName = "Pods-BigKeeperOrderModule_Example";
+			productReference = FD4FA0C3D85431D8265AFD16BC93346D /* Pods_BigKeeperOrderModule_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FC71733CE9B925BD4DACA02447809DB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3290E0467CF3D872552B08C6E86B994F /* BigKeeperOrderModule */,
+				5A3B5164CB4AB4D0B822621404667262 /* Pods-BigKeeperOrderModule_Example */,
+				3F4638E0854A5E05F7697A0CB489B102 /* Pods-BigKeeperOrderModule_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		655DE97A6810942D5BB609D7D1D62D26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA78D2BEF48CC8B806253757D7202CAC /* Pods-BigKeeperOrderModule_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCCAEEC92C95DB949A76EC6A48268FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E721EFCCD52EC181B2CD8EB5FDBF5F22 /* BigKeeperOrderModule-dummy.m in Sources */,
+				DB7189318B58E4DB196DD3D488D6E1C5 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2CCA3B95694E33299C382A7A7C3965 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99AFDE518A0E1E45BD5FC7069C4EF19 /* Pods-BigKeeperOrderModule_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B54A8D1A718768CC16262ADB3D3B684 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BigKeeperOrderModule;
+			target = 3290E0467CF3D872552B08C6E86B994F /* BigKeeperOrderModule */;
+			targetProxy = 1EE6EB1FC07F73A1BDDEEC6C7DE8ECB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07947B63A546040C5569D653CF4BDCC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D89D667120004028C3D79CAC7C1AC51 /* Pods-BigKeeperOrderModule_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BigKeeperOrderModule_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BigKeeperOrderModule_Tests/Pods-BigKeeperOrderModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BigKeeperOrderModule_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1FEF53A8D58D02C35FDA59F46788B3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE94573D4B2C89E89DCB749E40BFFE5 /* Pods-BigKeeperOrderModule_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BigKeeperOrderModule_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BigKeeperOrderModule_Example/Pods-BigKeeperOrderModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BigKeeperOrderModule_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2D95ADE90B4FECAA756A944C570291E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6B99D52A4CCE4C7069C8C806FC6808E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85D5EFCA0724EF5CE9CF7967044406C1 /* Pods-BigKeeperOrderModule_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BigKeeperOrderModule_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BigKeeperOrderModule_Example/Pods-BigKeeperOrderModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BigKeeperOrderModule_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		72AE66AC1EE0FD8E4451323E63000420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0A1D45DBC656B3A4B1AA6282004D88D /* BigKeeperOrderModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BigKeeperOrderModule/BigKeeperOrderModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BigKeeperOrderModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BigKeeperOrderModule/BigKeeperOrderModule.modulemap";
+				PRODUCT_NAME = BigKeeperOrderModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		975D4156FC75C9D3EFD8B4376EADE27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0A1D45DBC656B3A4B1AA6282004D88D /* BigKeeperOrderModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BigKeeperOrderModule/BigKeeperOrderModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BigKeeperOrderModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BigKeeperOrderModule/BigKeeperOrderModule.modulemap";
+				PRODUCT_NAME = BigKeeperOrderModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F08D822DABF03D10987B012806B48631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47602B8F1C78411240C7EB764D48695B /* Pods-BigKeeperOrderModule_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BigKeeperOrderModule_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BigKeeperOrderModule_Tests/Pods-BigKeeperOrderModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BigKeeperOrderModule_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D95ADE90B4FECAA756A944C570291E0 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D707964D9AA3D3F09DE925AEA92FD11 /* Build configuration list for PBXNativeTarget "Pods-BigKeeperOrderModule_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08D822DABF03D10987B012806B48631 /* Debug */,
+				07947B63A546040C5569D653CF4BDCC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DB85F76336EE226FB2DDC031DC65DE8 /* Build configuration list for PBXNativeTarget "Pods-BigKeeperOrderModule_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEF53A8D58D02C35FDA59F46788B3A2 /* Debug */,
+				6B99D52A4CCE4C7069C8C806FC6808E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFF6CC956813A42A5D0A896441CFA66F /* Build configuration list for PBXNativeTarget "BigKeeperOrderModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72AE66AC1EE0FD8E4451323E63000420 /* Debug */,
+				975D4156FC75C9D3EFD8B4376EADE27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

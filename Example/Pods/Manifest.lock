@@ -1,0 +1,16 @@
+PODS:
+  - BigKeeperOrderModule (0.1.0)
+
+DEPENDENCIES:
+  - BigKeeperOrderModule (from `../`)
+
+EXTERNAL SOURCES:
+  BigKeeperOrderModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BigKeeperOrderModule: c27805d6963757a4700aef5aa2e6fbf48b234a96
+
+PODFILE CHECKSUM: df2513e151c58248e6f980062864a6cbeaf1b81e
+
+COCOAPODS: 1.2.1

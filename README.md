@@ -8,10 +8,12 @@
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-Add Test
-Add Test1
 
 ## Requirements
+```
+Add Test
+Add Test1
+```
 
 ## Installation
 

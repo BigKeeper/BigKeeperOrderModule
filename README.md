@@ -13,6 +13,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ```
 Add Test
 Add Test1
+Add Test2
 ```
 
 ## Installation
